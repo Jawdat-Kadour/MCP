@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Header from '@components/Header';
 import Footer from '@components/Footer';
 import styles from './styles.module.css';
-import personalPhoto from '../IMG_20230525_222546_813.jpg';
+import personalPhoto from './IMG_20230525_222546_813.jpg';
 
 const images = [
   personalPhoto, // Initial image
