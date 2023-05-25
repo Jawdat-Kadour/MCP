@@ -4,10 +4,9 @@ import Link from 'next/link';
 import Header from '@components/Header';
 import Footer from '@components/Footer';
 import styles from './styles.module.css';
-import personalPhoto from './IMG_20230525_222546_813.jpg';
 
 const images = [
-  personalPhoto, // Initial image
+  '/IMG_20230525_222546_813.jpg', // Update the path to your personal photo
   'image2.jpg', // Add other image file names here
   'image3.jpg',
   'image4.jpg',
@@ -73,11 +72,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <button className={styles.button} onClick={handleNextImage}>
-          Next Image
-        </button>
+        <button onClick={handleNextImage}>Next Image</button>
         <Link href="/works">
-          <a className={styles.button}>View My Works</a>
+          <a>View My Works</a>
         </Link>
       </main>
 
