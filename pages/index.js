@@ -6,7 +6,7 @@ import Footer from '@components/Footer';
 import styles from './styles.module.css';
 
 const images = [
-  '/IMG_20230525_222546_813.jpg', // Update the path to your personal photo
+  'public/IMG_20230525_222546_813.jpg', // Update the path to your personal photo
   'image2.jpg', // Add other image file names here
   'image3.jpg',
   'image4.jpg',
