@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Header from '@components/Header';
 import Footer from '@components/Footer';
 import styles from './styles.module.css';
+import personalPhoto from '../path/to/personal-photo.jpg';
 
 export default function Home() {
   const name = 'Jawdat Kadour';
@@ -26,6 +27,7 @@ export default function Home() {
         <Header title={`Welcome to ${name}'s CV!`} />
         <div className={styles.cv}>
           <h1 className={styles.name}>{name}</h1>
+          <img className={styles.photo} src={personalPhoto} alt="Personal Photo" />
           <div className={styles.details}>
             <div>
               <h2 className={styles.sectionTitle}>Personal Information</h2>
