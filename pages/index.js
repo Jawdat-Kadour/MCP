@@ -72,9 +72,11 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <button onClick={handleNextImage}>Next Image</button>
+        <button className={styles.button} onClick={handleNextImage}>
+          Next Image
+        </button>
         <Link href="/works">
-          <a>View My Works</a>
+          <a className={styles.button}>View My Works</a>
         </Link>
       </main>
 
