@@ -6,14 +6,12 @@ import Footer from '@components/Footer';
 import styles from './styles.module.css';
 
 const images = [
-  'public/IMG_20230525_222546_813.jpg', // Update the path to your personal photo
-  'image2.jpg', // Add other image file names here
-  'image3.jpg',
-  'image4.jpg',
+  '/Jood.jpg', // Update the path to your personal photo
+   // Add other image file names here
 ];
 
 export default function Home() {
-  const name = 'Jawdat Kadour';
+  const name = 'JAWDAT KADOUR';
   const age = 22;
   const education =
     '4th year student at ITE (Information Technology Engineering), specialized in Artificial Intelligence';
@@ -35,7 +33,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Y-TECH - CV</title>
+        <title>Y-TEjsdaflj;faf- CV</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -72,12 +70,10 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <button className={styles.button} onClick={handleNextImage}>
-          Next Image
-        </button>
-        <Link href="/works">
-          <a className={styles.button}>View My Works</a>
-        </Link>
+        <Link href="/myWork">
+  <a className={styles.button}>Some Of My Works</a>
+</Link>
+
       </main>
 
       <Footer />
