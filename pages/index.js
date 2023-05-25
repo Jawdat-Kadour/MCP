@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import { useState } from 'react';
+import Link from 'next/link';
 import Header from '@components/Header';
 import Footer from '@components/Footer';
 import styles from './styles.module.css';
@@ -71,6 +72,9 @@ export default function Home() {
           </div>
         </div>
         <button onClick={handleNextImage}>Next Image</button>
+        <Link href="/works">
+          <a>View My Works</a>
+        </Link>
       </main>
 
       <Footer />
