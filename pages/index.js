@@ -72,12 +72,6 @@ export default function Home() {
               <p>{initiative}</p>
             </div>
           </div>
-          <div className="container">
-            <div className="cv">
-              <img src="IMG_20230525_222546_813.jpg" alt="My Photo" />
-              {/* Rest of the code */}
-            </div>
-          </div>
         </div>
         <button onClick={handleNextImage}>Next Image</button>
         <Link href="/works">
