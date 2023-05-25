@@ -1,8 +1,16 @@
 import Head from 'next/head';
+import { useState } from 'react';
 import Header from '@components/Header';
 import Footer from '@components/Footer';
 import styles from './styles.module.css';
-import personalPhoto from './IMG_20230525_222546_813.jpg';
+import personalPhoto from '../IMG_20230525_222546_813.jpg';
+
+const images = [
+  personalPhoto, // Initial image
+  'image2.jpg', // Add other image file names here
+  'image3.jpg',
+  'image4.jpg',
+];
 
 export default function Home() {
   const name = 'Jawdat Kadour';
@@ -16,6 +24,12 @@ export default function Home() {
   const communicationSkills = 'Strong communication and consultative skills';
   const initiative = 'Self-initiated and proactive';
 
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  const handleNextImage = () => {
+    setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+  };
+
   return (
     <div className={styles.container}>
       <Head>
@@ -27,7 +41,7 @@ export default function Home() {
         <Header title={`Welcome to ${name}'s CV!`} />
         <div className={styles.cv}>
           <h1 className={styles.name}>{name}</h1>
-          <img className={styles.photo} src={personalPhoto} alt="Personal Photo" />
+          <img className={styles.photo} src={images[currentImageIndex]} alt="Personal Photo" />
           <div className={styles.details}>
             <div>
               <h2 className={styles.sectionTitle}>Personal Information</h2>
@@ -56,6 +70,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <button onClick={handleNextImage}>Next Image</button>
       </main>
 
       <Footer />
