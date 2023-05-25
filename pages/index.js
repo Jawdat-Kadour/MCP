@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Header from '@components/Header';
 import Footer from '@components/Footer';
 import styles from './styles.module.css';
-import personalPhoto from '../path/to/personal-photo.jpg';
+import personalPhoto from './IMG_20230525_222546_813.jpg';
 
 export default function Home() {
   const name = 'Jawdat Kadour';
