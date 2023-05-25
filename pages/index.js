@@ -31,15 +31,25 @@ export default function Home() {
               <h2 className={styles.sectionTitle}>Personal Information</h2>
               <p>Age: {age}</p>
               <p>Education: {education}</p>
+              <div className={styles.progressContainer}>
+                <p>English Speaking:</p>
+                <progress className={styles.progress} value="80" max="100"></progress>
+              </div>
             </div>
             <div>
               <h2 className={styles.sectionTitle}>Professional Summary</h2>
               <p>{experience}</p>
               <p>{skills}</p>
-              <p>{designSkills}</p>
+              <div className={styles.progressContainer}>
+                <p>Design Skills:</p>
+                <progress className={styles.progress} value="90" max="100"></progress>
+              </div>
+              <div className={styles.progressContainer}>
+                <p>Communication Skills:</p>
+                <progress className={styles.progress} value="95" max="100"></progress>
+              </div>
               <p>{previousExperience}</p>
               <p>{agileDevelopment}</p>
-              <p>{communicationSkills}</p>
               <p>{initiative}</p>
             </div>
           </div>
