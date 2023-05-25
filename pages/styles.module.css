@@ -3,19 +3,28 @@
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
-  padding: 1rem;
-  background: linear-gradient(to bottom right, #F9EAE1, #F5D6C6, #E8B3A3);
+  padding: 8rem;
+  background: linear-gradient(to bottom right, #702e18, #9889be, #b84545);
 }
 
 .cv {
-  background-color: #fff;
+  background-color: #000000;
   padding: 2rem;
-  border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 80%;
   margin-top: 2rem;
-  animation: fadeIn 1s ease-in-out;
+  animation: fadeIn 2s ease-in-out;
 }
+
+.photo {
+  max-width: 15%;
+  height: auto;
+  margin-bottom: 2rem;
+  border-radius: 10%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 
 @keyframes fadeIn {
   from {
@@ -30,18 +39,21 @@
   font-size: 2rem;
   font-weight: bold;
   margin-bottom: 1rem;
+  color:aliceblue
 }
 
 .sectionTitle {
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
+  color:aliceblue
 }
 
 .details {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
+  color:aliceblue
 }
 
 .progress {
@@ -54,11 +66,11 @@
 /* Modify the button styles */
 .button {
   padding: 0.8rem 1.5rem;
-  background-color: #f2f2f2;
-  color: #333;
-  border: none;
-  border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  color: #000000;
+  border: #000000;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
@@ -69,7 +81,7 @@
 
 .button:active {
   transform: translateY(0);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 @media screen and (max-width: 600px) {
