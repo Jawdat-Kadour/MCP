@@ -14,10 +14,10 @@ export default function Home() {
   const name = 'JAWDAT KADOUR';
   const age = 22;
   const education =
-    '4th year student at ITE (Information Technology Engineering), specialized in Artificial Intelligence';
+    '4th year student at ITE (Information Technology Engineering) Faculity, specialized in Artificial Intelligence';
   const experience = 'Over a year of experience in Flutter/Dart development';
   const skills =
-    "Experienced in Third party libraries and API's, state management, Flutter flavor, and app architecture";
+    "Experienced in Third party libraries and Restful API's, state management, Flutter flavor, and app architecture";
   const designSkills = 'Good designer';
   const previousExperience = 'Previous experience in Mobile app development';
   const agileDevelopment = 'Understanding of the agile development life cycle';
