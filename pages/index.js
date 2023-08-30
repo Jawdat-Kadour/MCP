@@ -17,7 +17,7 @@ export default function Home() {
     '4th year student at ITE (Information Technology Engineering) Faculity, specialized in Artificial Intelligence';
   const experience = 'Over a year of experience in Flutter/Dart development';
   const skills =
-    "Experienced in Third party libraries and Restful API's, state management, Flutter flavor, and app architecture";
+    "Experienced in Third party libraries and Restful API's, state management, Push Notification, GetX, Google maps, Flutter flavor, and app architecture";
   const designSkills = 'Good designer';
   const previousExperience = 'Previous experience in Mobile app development';
   const agileDevelopment = 'Understanding of the agile development life cycle';
