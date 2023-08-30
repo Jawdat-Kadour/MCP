@@ -77,8 +77,8 @@ export default function Home() {
                 <progress className={styles.progress} value="90" max="100"></progress>
               </div>
               <div className={styles.progressContainer}>
-                <p>Communication Skills:</p>
-                <progress className={styles.progress} value="95" max="100"></progress>
+                <p>English Speaking:</p>
+                <progress className={styles.progress} value="99" max="100"></progress>
               </div>
               <p>{previousExperience}</p>
               <p>{agileDevelopment}</p>
