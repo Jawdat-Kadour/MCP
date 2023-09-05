@@ -38,12 +38,12 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>CV - {name}</title>
+        <title>Professional Portfolio - {name}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
   
       <main>
-        <Header title={`Welcome to ${name}'s CV`} />
+        <Header title={`Welcome to My Professional Portfolio: `} />
         <div className={styles.cv}>
           <div className={styles.details}>
             <div className={styles.leftSection}>
