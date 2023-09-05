@@ -4,7 +4,7 @@
   align-items: center;
   min-height: 100vh;
   padding: 8rem;
-  background: linear-gradient(to bottom right, #5d36c0, #d21919, #ffffff, #bc502c);
+  background: linear-gradient(to bottom right, #5d36c0, #d21919, #ffffff, #d21919, #bc502c);
 /*   background: linear-gradient(to right, #ffffff, #c0c0c0, #1a215c, #c0c0c0, #ffffff); */
 }
 
@@ -43,7 +43,7 @@
   color:aliceblue
 } */
 .name {
-  font-size: 5rem;
+  font-size: 3rem;
   font-weight: bold;
   margin-bottom: 1rem;
   color: aliceblue;
