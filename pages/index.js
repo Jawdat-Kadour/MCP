@@ -14,12 +14,12 @@ export default function Home() {
   const name = 'JAWDAT KADOUR';
   const age = 22;
   const education =
-    '4th year student at ITE (Information Technology Engineering), specialized in Artificial Intelligence';
+    '5th year student at ITE (Information Technology Engineering), specialized in Artificial Intelligence';
   const experience = 'Over a year of experience in Flutter/Dart development';
   const skills =
     "Experienced in Third party libraries and Restful API's, GetX, Push Notification, Google Maps, State Management, Flutter flavor, And app architecture";
   const designSkills = 'Good designer';
-  const previousExperience = 'Previous experience in Mobile app development';
+  const previousExperience = 'Previous experience in Web development';
   const agileDevelopment = 'Understanding of the agile development life cycle';
   const communicationSkills = 'Strong communication and consultative skills';
   const initiative = 'Self-initiated and proactive';
@@ -51,7 +51,7 @@ export default function Home() {
                 <img className={styles.photo} src={images[currentImageIndex]} alt="Personal Photo" />
                 <h1 className={styles.name}>{name}</h1>
                 <h2 className={styles.sectionTitle}>EDUCATION</h2>
-              <p>Bachelor of IT Engineering.</p>
+              <p>Bachelor of Information Technology Engineering.</p>
               <p>University of Damascus | 2019-present</p>
               </div>
               <div className={styles.additionalInfo}>
@@ -85,6 +85,7 @@ export default function Home() {
               <p>{initiative}</p>
               <h2 className={styles.sectionTitle}>Programming Languages</h2>
               <ul className={styles.projectsList}>
+                <li>Python</li>
                 <li>Java</li>
                 <li>Dart</li>
                 <li>HTML/Css/JS</li>
@@ -95,7 +96,7 @@ export default function Home() {
           </div>
         </div>
         <Link href="/myWork">
-          <a className={styles.button}>Some Of My Works</a>
+          <a className={styles.button}>Projects i worked on</a>
         </Link>
       </main>
   
