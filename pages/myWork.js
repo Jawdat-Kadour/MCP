@@ -32,7 +32,7 @@ export default function Works() {
     { id: 21, image: '/water.png', alt: 'Image 21', legend: 'Analyzing the percentage of water in the body and knowing the appropriate amount that he likes to eat on a daily basis.' },
     { id: 22, image: '/menu.png', alt: 'Image 22', legend: 'General health guidance: Neura provides personalized health advice and tips for overall well-being. Nutritional advices: Neura offers guidance on nutrition, including healthy eating habits and food choices.' },
     { id: 23, image: '/bye.png', alt: 'Image 23', legend: 'Providing a diet that suits many desires of the user and providing a diet based on personal specifications such as weight, height and other specifications...' },
-    // Add more slide data here
+    
   ];
 
   const settings = {
@@ -64,10 +64,10 @@ export default function Works() {
               </ul>
             </li>
             <li className={styles.projectItem}>
-              <span className={styles.projectTitle}>Neura</span> | Flutter Developer | March 2023 - July 2023
+              <span className={styles.projectTitle}>Neura</span> | Flutter-Python Developer | March 2023 - July 2023
               <ul className={styles.projectDetails}>
                 <li>Description: Chatbot application that provides guidance to users for maintaining their health and well-being.</li>
-                <li>Role: All the Front-End developing.</li>
+                <li>Role: Working on the modules and All the Front-End developing.</li>
               </ul>
             </li>
           </ol>
