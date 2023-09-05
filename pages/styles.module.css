@@ -4,7 +4,7 @@
   align-items: center;
   min-height: 100vh;
   padding: 8rem;
-  linear-gradient(to bottom right, #bc502c, #5d36c0, #d21919);
+  background: linear-gradient(to bottom right, #bc502c, #5d36c0, #d21919);
 /*   background: linear-gradient(to right, #ffffff, #c0c0c0, #1a215c, #c0c0c0, #ffffff); */
 }
 
