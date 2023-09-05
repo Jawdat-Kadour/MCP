@@ -19,7 +19,7 @@ export default function Home() {
   const skills =
     "Experienced in Third party libraries and Restful API's, GetX, Push Notification, Google Maps, State Management, Flutter flavor, And app architecture";
   const designSkills = 'Good designer';
-  const previousExperience = 'Previous experience in Web development';
+  const previousExperience = 'Previous experience in Mobile-App/Web development';
   const agileDevelopment = 'Understanding of the agile development life cycle';
   const communicationSkills = 'Strong communication and consultative skills';
   const initiative = 'Self-initiated and proactive';
