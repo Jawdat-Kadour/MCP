@@ -4,17 +4,17 @@
   align-items: center;
   min-height: 100vh;
   padding: 8rem;
-  background: linear-gradient(to bottom right, #5d36c0, #d21919, #ffffff, #d21919, #bc502c);
+  linear-gradient(to bottom right, #bc502c, #5d36c0, #d21919);
 /*   background: linear-gradient(to right, #ffffff, #c0c0c0, #1a215c, #c0c0c0, #ffffff); */
 }
 
 .cv {
   background-color: #000000;
-  padding: 1rem;
-  border-radius: 16px;
+  padding: 2rem;
+  border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  max-width: 95%;
-  margin-top: 1rem;
+  max-width: 80%;
+  margin-top: 2rem;
   animation: fadeIn 1s ease-in-out;
 }
 
