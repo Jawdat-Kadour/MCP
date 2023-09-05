@@ -1,6 +1,6 @@
 .container {
-/*   background-image: linear-gradient(to bottom right, #bc502c, #5d36c0, #d21919); */
-  background: linear-gradient(to bottom right, #5d36c0, #d21919, #ffffff, #d21919, #bc502c);
+  background-image: linear-gradient(to bottom right, #bc502c, #5d36c0, #d21919);
+/*   background: linear-gradient(to bottom right, #5d36c0, #d21919, #ffffff, #d21919, #bc502c); */
   display: relative;
   justify-content: center;
   align-items: center;
