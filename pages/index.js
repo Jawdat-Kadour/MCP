@@ -1,30 +1,32 @@
-import Head from 'next/head';
-import { useState } from 'react';
-import Link from 'next/link';
-import Header from '@components/Header';
-import Footer from '@components/Footer';
-import styles from './styles.module.css';
+import Head from "next/head";
+import { useState } from "react";
+import Link from "next/link";
+import Header from "@components/Header";
+import Footer from "@components/Footer";
+import styles from "./styles.module.css";
 
 const images = [
-  '/Jood.jpg', // Update the path to your personal photo
-   // Add other image file names here
+  "/Jood.jpg", // Update the path to your personal photo
+  // Add other image file names here
 ];
 
 export default function Home() {
-  const name = 'JAWDAT KADOUR';
+  const name = "JAWDAT KADOUR";
   const age = 22;
   const education =
-    '5th year student at ITE (Information Technology Engineering), specialized in Artificial Intelligence';
-  const experience = 'Over a year of experience in Flutter/Dart development';
+    "5th year student at ITE (Information Technology Engineering), specialized in Artificial Intelligence";
+  const experience =
+    "I’m a Python developer and AI enthusiast. And i have over a year of experience in Flutter/Dart development";
   const skills =
     "Experienced in Third party libraries and Restful API's, GetX, Push Notification, Google Maps, State Management, Flutter flavor, And app architecture";
-  const designSkills = 'Good designer';
-  const previousExperience = 'Previous experience in Mobile-App/Web development';
-  const agileDevelopment = 'Understanding of the agile development life cycle';
-  const communicationSkills = 'Strong communication and consultative skills';
-  const initiative = 'Self-initiated and proactive';
-  const liveAt = 'Damascus';
-  const references = 'Available upon request';
+  const designSkills = "Good designer";
+  const previousExperience =
+    "Previous experience in Mobile-App/Web development";
+  const agileDevelopment = "Understanding of the agile development life cycle";
+  const communicationSkills = "Strong communication and consultative skills";
+  const initiative = "Self-initiated and proactive";
+  const liveAt = "Damascus";
+  const references = "Available upon request";
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
@@ -32,8 +34,8 @@ export default function Home() {
     setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
   };
 
-  const email = 'jkad7619@gmail.com';
-  const whatsapp = '0991345578';
+  const email = "jkad7619@gmail.com";
+  const whatsapp = "0991345578";
 
   return (
     <div className={styles.container}>
@@ -41,18 +43,22 @@ export default function Home() {
         <title>Professional Portfolio - {name}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-  
+
       <main>
         <Header title={`Welcome to My Professional Portfolio: `} />
         <div className={styles.cv}>
           <div className={styles.details}>
             <div className={styles.leftSection}>
               <div className={styles.profile}>
-                <img className={styles.photo} src={images[currentImageIndex]} alt="Personal Photo" />
+                <img
+                  className={styles.photo}
+                  src={images[currentImageIndex]}
+                  alt="Personal Photo"
+                />
                 <h1 className={styles.name}>{name}</h1>
                 <h2 className={styles.sectionTitle}>EDUCATION</h2>
-              <p>Bachelor of Information Technology Engineering.</p>
-              <p>University of Damascus | 2019-present</p>
+                <p>Bachelor of Information Technology Engineering.</p>
+                <p>University of Damascus | 2019-present</p>
               </div>
               <div className={styles.additionalInfo}>
                 <h2 className={styles.sectionTitle}>Additional Information</h2>
@@ -74,11 +80,19 @@ export default function Home() {
               <p>{skills}</p>
               <div className={styles.progressContainer}>
                 <p>Design Skills:</p>
-                <progress className={styles.progress} value="90" max="100"></progress>
+                <progress
+                  className={styles.progress}
+                  value="90"
+                  max="100"
+                ></progress>
               </div>
               <div className={styles.progressContainer}>
                 <p>English Speaking:</p>
-                <progress className={styles.progress} value="99" max="100"></progress>
+                <progress
+                  className={styles.progress}
+                  value="99"
+                  max="100"
+                ></progress>
               </div>
               <p>{previousExperience}</p>
               <p>{agileDevelopment}</p>
@@ -91,7 +105,6 @@ export default function Home() {
                 <li>HTML/Css/JS</li>
                 <li>C++</li>
               </ul>
-              
             </div>
           </div>
         </div>
@@ -99,8 +112,8 @@ export default function Home() {
           <a className={styles.button}>Projects i worked on</a>
         </Link>
       </main>
-  
+
       <Footer />
     </div>
   );
-  }  
+}
