@@ -41,7 +41,7 @@
 }
 
 .name {
-  font-size: 5rem;
+  font-size: 3rem;
   font-weight: bold;
   margin-bottom: 1rem;
   color:aliceblue
@@ -106,11 +106,6 @@
   transition: all 0.8s ease;
 
 }
-
-/* .button:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 4px 16px rgb(255, 255, 255);
-} */
 
 .button:hover {
   transform: translateY(-3px);
