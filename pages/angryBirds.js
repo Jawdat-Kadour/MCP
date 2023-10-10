@@ -14,28 +14,28 @@ export default function Works() {
       image: "/6.png",
       alt: "Image 6",
       legend:
-        "In this project, I created an AI healthcare chat bot that can diagnose diseases, suggest treatments, provide information about medicines and food systems, and perform menstrual and water analysis. I used Python as the main programming language, along with various libraries and frameworks such as TensorFlow, NLTK",
+        "This project seeks to shed light on the simulation algorithms in the game Angry Birds and study Its importance in the video game industry, providing a strong foundation for future video game development and improvement Its performance and quality.",
     },
     {
       id: 6,
       image: "/1.png",
       alt: "Image 1",
       legend:
-        "chatbot application provides guidance to users for maintaining their health and well-being",
+        "Algorithms that have been used for collision detection:  (Bounding Volume Hierarchy)",
     },
     {
       id: 2,
       image: "/2.png",
       alt: "Image 2",
       legend:
-        "As part of my work on Neura, I have developed the Neural networks and the GUIs",
+        "BVH is used to organize and speed up the process of detecting collisions between objects, as an algorithm works BVH is similar to a binary search tree, where the virtual world is partitioned into pools of Bounding boxes.",
     },
     {
       id: 3,
       image: "/3.png",
       alt: "Image 3",
       legend:
-        "I have implemented most of the services of the chatbot in addition of implementing the user interface elements such as buttons, text fields, and menus...",
+        "Axis-Aligned Bounding Box collision detection (AABB) \n The collision detection algorithm checks for interferenc Finite rectangles in axial axes It is a simple algorithm to detect collisions between two bodies",
     },
     {
       id: 4,
@@ -183,41 +183,29 @@ export default function Works() {
   return (
     <>
       <Head>
-        <title>YUGO</title>
+        <title>3D-Angry Birds</title>
       </Head>
       <div className={styles.container}>
-        <h1 className={styles.title}>YUGO</h1>
+        <h1 className={styles.title}>
+          3 Dimensional simulation of Angry Birds game
+        </h1>
 
         <div className={styles.projectsContainer}>
-          {/* <h2 className={styles.sectionTitle}>Projects:</h2> */}
           <ol className={styles.projectsList}>
             <li className={styles.projectItem}>
-              <span className={styles.projectTitle}>Yugo</span> | Flutter
-              Developer | March 2022 - June 2022
               <ul className={styles.projectDetails}>
                 <li>
-                  Description: Mobile application designed to connect passengers
-                  with nearby taxi drivers.
-                </li>
-                <li>
-                  Role: Developing GUIs included with Google Maps, Registration
-                  GUIs
+                  Description: An engaging 3D reimagining of the popular Angry
+                  Birds game, meticulously developed with the Unity engine,
+                  showcasing a ground-up approach that avoids relying on Unity's
+                  pre-built physics features. This simulation offers an
+                  extensive impact simulation, accurate impact recognition,
+                  detailed structural breakage, interactive explosions, dynamic
+                  object deformation, intuitive projectile manipulation, and
+                  thoughtful bird launching strategies.
                 </li>
               </ul>
             </li>
-            {/* <li className={styles.projectItem}>
-              <span className={styles.projectTitle}>Neura</span> |
-              Flutter-Python Developer | March 2023 - July 2023
-              <ul className={styles.projectDetails}>
-                <li>
-                  Description: Chatbot application that provides guidance to
-                  users for maintaining their health and well-being.
-                </li>
-                <li>
-                  Role: Working on the modules and All the Front-End developing.
-                </li>
-              </ul>
-            </li> */}
           </ol>
         </div>
 

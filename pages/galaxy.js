@@ -14,7 +14,7 @@ export default function Works() {
       image: "/6.png",
       alt: "Image 6",
       legend:
-        "In this project, I created an AI healthcare chat bot that can diagnose diseases, suggest treatments, provide information about medicines and food systems, and perform menstrual and water analysis. I used Python as the main programming language, along with various libraries and frameworks such as TensorFlow, NLTK",
+        "The project embodies a highly intricate pursuit within the field of astrophysics - a precise physical simulation that accurately replicates the complex motions of celestial objects. This simulation provides an all-encompassing representation of gravitational forces, illustrating the mutual attraction between these celestial entities while considering fundamental aspects such as mass and diverse physical attributes.",
     },
     {
       id: 6,
@@ -183,41 +183,30 @@ export default function Works() {
   return (
     <>
       <Head>
-        <title>YUGO</title>
+        <title>CelestialBodiesSimulator</title>
       </Head>
       <div className={styles.container}>
-        <h1 className={styles.title}>YUGO</h1>
+        <h1 className={styles.title}>CelestialBodiesSimulator</h1>
 
         <div className={styles.projectsContainer}>
-          {/* <h2 className={styles.sectionTitle}>Projects:</h2> */}
           <ol className={styles.projectsList}>
             <li className={styles.projectItem}>
-              <span className={styles.projectTitle}>Yugo</span> | Flutter
-              Developer | March 2022 - June 2022
+              <span className={styles.projectTitle}>
+                CelestialBodiesSimulator
+              </span>{" "}
               <ul className={styles.projectDetails}>
                 <li>
-                  Description: Mobile application designed to connect passengers
-                  with nearby taxi drivers.
-                </li>
-                <li>
-                  Role: Developing GUIs included with Google Maps, Registration
-                  GUIs
+                  Description: The project embodies a highly intricate pursuit
+                  within the field of astrophysics - a precise physical
+                  simulation that accurately replicates the complex motions of
+                  celestial objects. This simulation provides an
+                  all-encompassing representation of gravitational forces,
+                  illustrating the mutual attraction between these celestial
+                  entities while considering fundamental aspects such as mass
+                  and diverse physical attributes.
                 </li>
               </ul>
             </li>
-            {/* <li className={styles.projectItem}>
-              <span className={styles.projectTitle}>Neura</span> |
-              Flutter-Python Developer | March 2023 - July 2023
-              <ul className={styles.projectDetails}>
-                <li>
-                  Description: Chatbot application that provides guidance to
-                  users for maintaining their health and well-being.
-                </li>
-                <li>
-                  Role: Working on the modules and All the Front-End developing.
-                </li>
-              </ul>
-            </li> */}
           </ol>
         </div>
 
