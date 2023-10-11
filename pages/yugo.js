@@ -11,19 +11,19 @@ export default function Works() {
   const slides = [
     {
       id: 1,
-      image: "/yugo.png",
+      image: "/yugo.jpg",
       alt: "Image 6",
       legend: "Online taxi booking streamlines transportation.",
     },
     {
       id: 2,
-      image: "/yugo1.png",
+      image: "/yugo1.jpg",
       alt: "Image 1",
       legend: "Ensuring convenience and reducing wait times.",
     },
     {
       id: 3,
-      image: "/yugo2.png",
+      image: "/yugo2.jpg",
       alt: "Image 2",
       legend:
         "Making travel more efficient and accessible. It enhances safety by providing details about the driver and trip, fostering trust and accountability in the service.",
@@ -31,67 +31,67 @@ export default function Works() {
 
     {
       id: 4,
-      image: "/yugo5.png",
+      image: "/yugo5.jpg",
       alt: "Image 4",
       legend:
         "Users can access our application securely through email or phone number authentication, ensuring a protected and personalized experience.",
     },
     {
       id: 5,
-      image: "/yugo8.png",
+      image: "/yugo8.jpg",
       alt: "Image 5",
       legend:
         "Our service facilitates users (customers and drivers alike) in establishing a personal account, enabling them to seamlessly integrate into the esteemed YUGO community.",
     },
     {
       id: 6,
-      image: "/yugo6.png",
+      image: "/yugo6.jpg",
       alt: "Image 7",
       legend: "",
     },
     {
       id: 7,
-      image: "/yugo9.png",
+      image: "/yugo9.jpg",
       alt: "Image 8",
       legend:
         "As a driver of YUGO community you will receive locations of customers requesting you services.",
     },
     {
       id: 8,
-      image: "/yugo7.png",
+      image: "/yugo7.jpg",
       alt: "Image 9",
       legend: "",
     },
     {
       id: 9,
-      image: "/yugo15.png",
+      image: "/yugo15.jpg",
       alt: "Image 10",
       legend:
         "selecting start point to get the car you want and a destination to go to is not all your options.",
     },
     {
       id: 10,
-      image: "/yugo13.png",
+      image: "/yugo13.jpg",
       alt: "Image 11",
       legend:
         "The ability to choose the desired vehicle, complete with customizable features, ensuring a tailored and comfortable journey.",
     },
     {
       id: 11,
-      image: "/yugo11.png",
+      image: "/yugo11.jpg",
       alt: "Image 12",
       legend: "Submission is your last step to get your car.",
     },
     {
       id: 12,
-      image: "/yugo12.png",
+      image: "/yugo12.jpg",
       alt: "Image 13",
       legend:
         "Customized Services: Profile Management: Users can meticulously curate their profiles, ensuring accuracy and relevance in their interactions within the YUGO community \n Complaint Submission: In the unfortunate event of an unpleasant experience \n  Lost Item Reporting: Our platform allows users to report lost items, providing detailed information to facilitate their recovery, ensuring a hassle-free resolution process. \nCar Sharing Partnerships: To enhance safety and affordability, users can find compatible car-sharing partners, promoting secure travel and cost-sharing opportunities.",
     },
     {
       id: 13,
-      image: "/yugo14.png",
+      image: "/yugo14.jpg",
       alt: "Image 14",
       legend:
         "Favorite Locations: Users can save preferred locations within the application, streamlining service requests and optimizing time management for their utmost convenience.\n Optimized Transportation: We prioritize efficiency by connecting users with the nearest private transportation options, ensuring swift and timely travel, irrespective of other alternatives.\nDisability Services: YUGO provides additional services tailored for individuals with disabilities, ensuring accessibility and comfort in every journey undertaken.\nChild-Friendly Services: Our specialized services cater to families with children, offering safety features and comfort, ensuring a stress-free travel experience for parents and their little ones. ",
