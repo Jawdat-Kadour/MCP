@@ -11,21 +11,21 @@ export default function Works() {
   const slides = [
     {
       id: 1,
-      image: "/movies3.png",
+      image: "/movies3.jpg",
       alt: "Image 6",
       legend:
         "Movie suggestion AI enhances our entertainment experience by saving time and introducing us to films tailored to our preferences, ensuring a more enjoyable viewing journey. ",
     },
     {
       id: 2,
-      image: "/movies1.png",
+      image: "/movies1.jpg",
       alt: "Image 1",
       legend:
         "Setting your desired configurations gives you many options to choose from.",
     },
     {
       id: 3,
-      image: "/movies2.png",
+      image: "/movies2.jpg",
       alt: "Image 2",
       legend:
         "Each suggestion has a certainity factor to make sure making the right decision ",
@@ -45,16 +45,16 @@ export default function Works() {
   return (
     <>
       <Head>
-        <title>YUGO</title>
+        <title>FILMATICA</title>
       </Head>
       <div className={styles.container}>
-        <h1 className={styles.title}>YUGO</h1>
+        <h1 className={styles.title}>FILMATICA</h1>
 
         <div className={styles.projectsContainer}>
           <ol className={styles.projectsList}>
             <li className={styles.projectItem}>
-              <span className={styles.projectTitle}>Yugo</span> | Flutter
-              Developer | March 2022 - June 2022
+              <span className={styles.projectTitle}>FILMATICA</span> | Expert
+              system
               <ul className={styles.projectDetails}>
                 <li>
                   Description: This app is like a movie matchmaker! It asks you
