@@ -11,162 +11,90 @@ export default function Works() {
   const slides = [
     {
       id: 1,
-      image: "/6.png",
+      image: "/yugo.png",
       alt: "Image 6",
-      legend:
-        "In this project, I created an AI healthcare chat bot that can diagnose diseases, suggest treatments, provide information about medicines and food systems, and perform menstrual and water analysis. I used Python as the main programming language, along with various libraries and frameworks such as TensorFlow, NLTK",
-    },
-    {
-      id: 6,
-      image: "/1.png",
-      alt: "Image 1",
-      legend:
-        "chatbot application provides guidance to users for maintaining their health and well-being",
+      legend: "Online taxi booking streamlines transportation.",
     },
     {
       id: 2,
-      image: "/2.png",
-      alt: "Image 2",
-      legend:
-        "As part of my work on Neura, I have developed the Neural networks and the GUIs",
+      image: "/yugo1.png",
+      alt: "Image 1",
+      legend: "Ensuring convenience and reducing wait times.",
     },
     {
       id: 3,
-      image: "/3.png",
-      alt: "Image 3",
+      image: "/yugo2.png",
+      alt: "Image 2",
       legend:
-        "I have implemented most of the services of the chatbot in addition of implementing the user interface elements such as buttons, text fields, and menus...",
+        "Making travel more efficient and accessible. It enhances safety by providing details about the driver and trip, fostering trust and accountability in the service.",
     },
+
     {
       id: 4,
-      image: "/4.png",
+      image: "/yugo5.png",
       alt: "Image 4",
       legend:
-        "Additionally, I have integrated all the user interface elements with the underlying logic of the application",
+        "Users can access our application securely through email or phone number authentication, ensuring a protected and personalized experience.",
     },
     {
       id: 5,
-      image: "/5.png",
+      image: "/yugo8.png",
       alt: "Image 5",
       legend:
-        "allowing users to interact with the chatbot and receive guidance on their health",
+        "Our service facilitates users (customers and drivers alike) in establishing a personal account, enabling them to seamlessly integrate into the esteemed YUGO community.",
+    },
+    {
+      id: 6,
+      image: "/yugo6.png",
+      alt: "Image 7",
+      legend: "",
     },
     {
       id: 7,
-      image: "/7.png",
-      alt: "Image 7",
-      legend: "SERVICES PROVIDED BY NEURA :) ",
+      image: "/yugo9.png",
+      alt: "Image 8",
+      legend:
+        "As a driver of YUGO community you will receive locations of customers requesting you services.",
     },
     {
       id: 8,
-      image: "/8.png",
-      alt: "Image 8",
-      legend:
-        "Medication reminder: Neura can help you stay on track with your medication schedule by sending you timely reminders.",
+      image: "/yugo7.png",
+      alt: "Image 9",
+      legend: "",
     },
     {
       id: 9,
-      image: "/conv.png",
-      alt: "Image 9",
+      image: "/yugo15.png",
+      alt: "Image 10",
       legend:
-        "Neura can handle all possible messages from users due to his immense database of intents and patterns.",
+        "selecting start point to get the car you want and a destination to go to is not all your options.",
     },
     {
       id: 10,
-      image: "/info.png",
-      alt: "Image 10",
+      image: "/yugo13.png",
+      alt: "Image 11",
       legend:
-        "Presentation of disease-specific information: Neura offers insights on specific diseases, including symptoms, causes, prevention, and management.",
+        "The ability to choose the desired vehicle, complete with customizable features, ensuring a tailored and comfortable journey.",
     },
     {
       id: 11,
-      image: "/article.png",
-      alt: "Image 11",
-      legend:
-        "it also provides scientific articles from the FDA and PubMed database.",
+      image: "/yugo11.png",
+      alt: "Image 12",
+      legend: "Submission is your last step to get your car.",
     },
     {
       id: 12,
-      image: "/treat.png",
-      alt: "Image 12",
+      image: "/yugo12.png",
+      alt: "Image 13",
       legend:
-        "Treatments for diseases: Neura provides information on plant-based medicinal treatments and holistic approaches for various diseases.",
+        "Customized Services: Profile Management: Users can meticulously curate their profiles, ensuring accuracy and relevance in their interactions within the YUGO community \n Complaint Submission: In the unfortunate event of an unpleasant experience \n  Lost Item Reporting: Our platform allows users to report lost items, providing detailed information to facilitate their recovery, ensuring a hassle-free resolution process. \nCar Sharing Partnerships: To enhance safety and affordability, users can find compatible car-sharing partners, promoting secure travel and cost-sharing opportunities.",
     },
     {
       id: 13,
-      image: "/warn.png",
-      alt: "Image 13",
-      legend: "it proviedes also warnings of using these treatmetns",
-    },
-    {
-      id: 14,
-      image: "/system.png",
+      image: "/yugo14.png",
       alt: "Image 14",
       legend:
-        "Food systems: Neura offers information on healthy eating, including meal planning, nutrient-rich foods, and recipes..",
-    },
-    {
-      id: 15,
-      image: "/period.png",
-      alt: "Image 15",
-      legend:
-        "Period tracker: Neura helps you track and monitor your menstrual cycle.",
-    },
-    {
-      id: 16,
-      image: "/med.png",
-      alt: "Image 16",
-      legend:
-        "Presentation of medicine-specific information: Neura can provide specific details about medications, including usage instructions and potential side effects. ",
-    },
-    {
-      id: 17,
-      image: "/serv.png",
-      alt: "Image 17",
-      legend:
-        "Weight tracker: Neura helps you track your weight and provides guidance on maintaining a healthy weight.",
-    },
-    {
-      id: 18,
-      image: "/serv2.png",
-      alt: "Image 18",
-      legend:
-        "Mood tracker: Neura assists in tracking and managing your mood for emotional well-being.",
-    },
-    {
-      id: 19,
-      image: "/serv3.png",
-      alt: "Image 19",
-      legend:
-        " Fitness tips: Neura provides suggestions for physical activities and exercises to support your fitness goals.",
-    },
-    {
-      id: 20,
-      image: "/joke.png",
-      alt: "Image 20",
-      legend:
-        "Mental well-being support: Neura provides support and resources for improving mental well-being and managing stress. Personalized health insights: Neura analyzes your health data to provide personalized insights and recommendations.",
-    },
-    {
-      id: 21,
-      image: "/water.png",
-      alt: "Image 21",
-      legend:
-        "Analyzing the percentage of water in the body and knowing the appropriate amount that he likes to eat on a daily basis.",
-    },
-    {
-      id: 22,
-      image: "/menu.png",
-      alt: "Image 22",
-      legend:
-        "General health guidance: Neura provides personalized health advice and tips for overall well-being. Nutritional advices: Neura offers guidance on nutrition, including healthy eating habits and food choices.",
-    },
-    {
-      id: 23,
-      image: "/bye.png",
-      alt: "Image 23",
-      legend:
-        "Providing a diet that suits many desires of the user and providing a diet based on personal specifications such as weight, height and other specifications...",
+        "Favorite Locations: Users can save preferred locations within the application, streamlining service requests and optimizing time management for their utmost convenience.\n Optimized Transportation: We prioritize efficiency by connecting users with the nearest private transportation options, ensuring swift and timely travel, irrespective of other alternatives.\nDisability Services: YUGO provides additional services tailored for individuals with disabilities, ensuring accessibility and comfort in every journey undertaken.\nChild-Friendly Services: Our specialized services cater to families with children, offering safety features and comfort, ensuring a stress-free travel experience for parents and their little ones. ",
     },
   ];
 
@@ -189,7 +117,6 @@ export default function Works() {
         <h1 className={styles.title}>YUGO</h1>
 
         <div className={styles.projectsContainer}>
-          {/* <h2 className={styles.sectionTitle}>Projects:</h2> */}
           <ol className={styles.projectsList}>
             <li className={styles.projectItem}>
               <span className={styles.projectTitle}>Yugo</span> | Flutter
@@ -199,25 +126,9 @@ export default function Works() {
                   Description: Mobile application designed to connect passengers
                   with nearby taxi drivers.
                 </li>
-                <li>
-                  Role: Developing GUIs included with Google Maps, Registration
-                  GUIs
-                </li>
+                <li>Role: Developing GUIs included with Maps.</li>
               </ul>
             </li>
-            {/* <li className={styles.projectItem}>
-              <span className={styles.projectTitle}>Neura</span> |
-              Flutter-Python Developer | March 2023 - July 2023
-              <ul className={styles.projectDetails}>
-                <li>
-                  Description: Chatbot application that provides guidance to
-                  users for maintaining their health and well-being.
-                </li>
-                <li>
-                  Role: Working on the modules and All the Front-End developing.
-                </li>
-              </ul>
-            </li> */}
           </ol>
         </div>
 
