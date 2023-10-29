@@ -186,7 +186,7 @@ export default function Works() {
         <title>My Works</title>
       </Head>
       <div className={styles.container}>
-        <h1 className={styles.title}>My Works</h1>
+        <h1 className={styles.title}>Natural language Processing</h1>
 
         <div className={styles.projectsContainer}>
           <h2 className={styles.sectionTitle}>Projects:</h2>
@@ -197,7 +197,7 @@ export default function Works() {
               <ul className={styles.projectDetails}>
                 <li>
                   Description: Chatbot application that provides guidance to
-                  users for maintaining their health and well-being.
+                  users and diagnosing to maintain their health and well-being.
                 </li>
                 <li>
                   Role: Working on the modules and All the Front-End developing.
