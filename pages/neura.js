@@ -192,6 +192,20 @@ export default function Works() {
           <h2 className={styles.sectionTitle}>Projects:</h2>
           <ol className={styles.projectsList}>
             <li className={styles.projectItem}>
+              <span className={styles.projectTitle}>Yugo</span> | Flutter
+              Developer | March 2022 - June 2022
+              <ul className={styles.projectDetails}>
+                <li>
+                  Description: Mobile application designed to connect passengers
+                  with nearby taxi drivers.
+                </li>
+                <li>
+                  Role: Developing GUIs included with Google Maps, Registration
+                  GUIs
+                </li>
+              </ul>
+            </li>
+            <li className={styles.projectItem}>
               <span className={styles.projectTitle}>Neura</span> |
               Flutter-Python Developer | March 2023 - July 2023
               <ul className={styles.projectDetails}>
