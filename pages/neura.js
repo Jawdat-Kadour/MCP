@@ -189,7 +189,6 @@ export default function Works() {
         <h1 className={styles.title}>Natural language Processing</h1>
 
         <div className={styles.projectsContainer}>
-          <h2 className={styles.sectionTitle}>Projects:</h2>
           <ol className={styles.projectsList}>
             <li className={styles.projectItem}>
               <span className={styles.projectTitle}>Neura</span> |
