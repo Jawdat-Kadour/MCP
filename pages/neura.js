@@ -192,7 +192,7 @@ export default function Works() {
           <ol className={styles.projectsList}>
             <li className={styles.projectItem}>
               <span className={styles.projectTitle}>Neura</span> |
-              Flutter-Python Developer | March 2023 - July 2023
+              Python-Flutter Developer | March 2023 - July 2023
               <ul className={styles.projectDetails}>
                 <li>
                   Description: Chatbot application that provides guidance to
