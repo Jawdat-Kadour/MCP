@@ -198,12 +198,17 @@ import Header from "@components/Header";
 import Footer from "@components/Footer";
 import styles from "./styles.module.css";
 
-const images = ["/Jood.jpg"]; // Update the path to your personal photo
+const images = ["/ph.jpg"]; // Update the path to your personal photo
 
 const buttonDetails = {
   me: {
     title: "Me",
     content: [
+      {
+        label: "Profile",
+        value:
+          "I bring analytical thinking and attention to detail to solve complex problems efficiently. My adaptability and resilience enable me to thrive in dynamic environments, while strong communication skills foster collaboration with diverse teams. With a proactive approach to continuous learning and a focus on customer satisfaction and security, I uphold ethical standards and deliver innovative solutions that meet evolving industry needs.",
+      },
       { label: "Age", value: 22 },
       {
         label: "Education",
@@ -219,7 +224,7 @@ const buttonDetails = {
       {
         label: "Professional Summary",
         value:
-          "I’m a Python developer and AI enthusiast. And I have over a year of experience in Flutter/Dart development",
+          "With strong programming skills in Python, Java, and C++, along with expertise in TensorFlow, PyTorch, and scikit-learn, I possess a solid foundation in AI development. My proficiency extends to various machine learning algorithms and deep learning architectures like CNNs and RNNs. I excel in data handling, employing SQL and visualization tools like Matplotlib for efficient dataset preprocessing and analysis. Leveraging my problem-solving acumen and mathematical prowess, I navigate complex AI challenges, manage projects end-to-end, and ensure version control proficiency in collaborative environments.",
       },
       {
         label: "Skills",
@@ -284,7 +289,7 @@ const buttonDetails = {
     content: [
       { label: "Email", value: "jkad7619@gmail.com" },
       { label: "WhatsApp", value: "0991345578" },
-      { label: "References", value: "Available upon request" },
+      // { label: "References", value: "Available upon request" },
     ],
   },
 };
