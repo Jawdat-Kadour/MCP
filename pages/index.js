@@ -204,52 +204,54 @@ const buttonDetails = {
   me: {
     title: "Me",
     content: [
+      { label: "► ", value: "2nd May 2001" },
       {
-        label: "Profile",
-        value:
-          "I bring analytical thinking and attention to detail to solve complex problems efficiently. My adaptability and resilience enable me to thrive in dynamic environments, while strong communication skills foster collaboration with diverse teams. With a proactive approach to continuous learning and a focus on customer satisfaction and security, I uphold ethical standards and deliver innovative solutions that meet evolving industry needs.",
-      },
-      { label: "Age", value: 22 },
-      {
-        label: "Education",
+        label: "► Education: ",
         value:
           "5th year student at ITE (Information Technology Engineering), specialized in Artificial Intelligence",
       },
-      { label: "Location", value: "Damascus" },
+      { label: "► ♥: ", value: "Single" },
+      { label: "► Location: ", value: "Damascus" },
+      {
+        label: "► Profile: ",
+        value:
+          "I bring analytical thinking and attention to detail to solve complex problems efficiently. My adaptability and resilience enable me to thrive in dynamic environments, while strong communication skills foster collaboration with diverse teams. With a proactive approach to continuous learning and a focus on customer satisfaction and security, I uphold ethical standards and deliver innovative solutions that meet evolving industry needs.",
+      },
     ],
   },
   experiences: {
     title: "My Experiences",
     content: [
       {
-        label: "Professional Summary",
+        label: "► Professional Summary",
         value:
           "With strong programming skills in Python, Java, and C++, along with expertise in TensorFlow, PyTorch, and scikit-learn, I possess a solid foundation in AI development. My proficiency extends to various machine learning algorithms and deep learning architectures like CNNs and RNNs. I excel in data handling, employing SQL and visualization tools like Matplotlib for efficient dataset preprocessing and analysis. Leveraging my problem-solving acumen and mathematical prowess, I navigate complex AI challenges, manage projects end-to-end, and ensure version control proficiency in collaborative environments.",
       },
       {
-        label: "Skills",
+        label: "► Skills",
         value:
           "Experienced in Third-party libraries and Restful API's, GetX, Push Notification, Google Maps, State Management, Flutter flavor, And app architecture",
       },
       {
-        label: "Previous Experience",
+        label: "► Previous Experience",
         value: "Previous experience in Mobile-App/Web development",
       },
       {
-        label: "Agile Development",
+        label: "► Agile Development",
         value: "Understanding of the agile development life cycle",
       },
-      { label: "Initiative", value: "Self-initiated and proactive" },
-      { label: "Design Skills", value: "Good designer" },
-      { label: "English Speaking", value: "Fluent" },
+      { label: "► Initiative", value: "Self-initiated and proactive" },
+      { label: "► Design Skills", value: "Good designer", indicator: 7 },
+      { label: "► English Speaking", value: "Fluent", indicator: 10 },
       {
         label: "Communication Skills",
         value: "Strong communication and consultative skills",
+        indicator: 9,
       },
-      {
-        label: "Programming Languages",
-        value: ["Python", "Java", "Dart", "HTML/CSS/JS", "C++"],
-      },
+      // {
+      //   label: "Programming Languages",
+      //   value: ["Python", "Java", "Dart", "HTML/CSS/JS", "C++"],
+      // },
     ],
   },
   projects: {
