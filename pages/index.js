@@ -241,8 +241,8 @@ const buttonDetails = {
         value: "Understanding of the agile development life cycle",
       },
       { label: "► Initiative", value: "Self-initiated and proactive" },
-      { label: "► Design Skills", value: "Good designer", indicator: 7 },
-      { label: "► English Speaking", value: "Fluent", indicator: 10 },
+      { label: "► Design Skills", value: "Good designer", indicator: "meduim" },
+      { label: "► English Speaking", value: "Fluent", indicator: "high" },
       {
         label: "Communication Skills",
         value: "Strong communication and consultative skills",
