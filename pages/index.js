@@ -206,14 +206,14 @@ const buttonDetails = {
     content: [
       { label: "► ", value: "2nd May 2001" },
       {
-        label: "► Education: ",
+        label: "► Education ",
         value:
           "5th year student at ITE (Information Technology Engineering), specialized in Artificial Intelligence",
       },
-      { label: "► ♥: ", value: "Single" },
+      { label: "► ♥ ", value: "Single" },
       { label: "► Location: ", value: "Damascus" },
       {
-        label: "► Profile: ",
+        label: "► Profile ",
         value:
           "I bring analytical thinking and attention to detail to solve complex problems efficiently. My adaptability and resilience enable me to thrive in dynamic environments, while strong communication skills foster collaboration with diverse teams. With a proactive approach to continuous learning and a focus on customer satisfaction and security, I uphold ethical standards and deliver innovative solutions that meet evolving industry needs.",
       },
