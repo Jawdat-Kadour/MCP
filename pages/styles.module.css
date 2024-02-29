@@ -61,27 +61,32 @@
   margin-bottom: 0.5rem;
   color:rgb(219, 46, 228)
 }
+.details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  color: aliceblue;
+}
+
+.details::before {
+  content: "►";
+  color: yellow; /* Adjust color as needed */
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
 
 /* .details {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
   color:aliceblue
-} */
-.details {
-  color:aliceblue;
-  display: flex;
-  justify-content: space-between;
-  margin-top: 2rem;
-  opacity: 0;
-  max-height: 0;
-  overflow: hidden;
-  transition: all 0.5s ease-in-out;
+
 }
+
 .details.active {
   opacity: 1;
   max-height: 100%;
-}
+} */
 
 .progress {
   width: 100%;
