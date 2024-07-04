@@ -204,7 +204,7 @@ const buttonDetails = {
   me: {
     title: "Me",
     content: [
-      { label: "► ", value: "2nd May 2001" },
+      { label: "► Birthdate", value: "2nd May 2001" },
       {
         label: "► Education ",
         value:
@@ -234,9 +234,14 @@ const buttonDetails = {
           "As a Flutter developer, I bring a passion for mobile development and a big attention to details to create seamless user experiences. With strong problem-solving skills and adaptability, I collaborate effectively in cross-functional teams, managing project timelines while increasing creativity and continuous learning to deliver creative Flutter applications. I am Experienced in Third-party libraries and Restful API's, GetX, Push Notification, Google Maps, State Management, Flutter flavor, And app architecture...",
       },
       {
+        label: "► Git version controll skills",
+        value:
+          "Version Control Expertise: Demonstrated strong proficiency in leveraging Git for version control and collaborative software development. My experience encompasses a diverse array of Git operations, including pull, push, cherry-pick, merge, stash, rebase, and branching. I have effectively managed code repositories, resolved merge conflicts, and maintained a clean and organized project history using Git.",
+      },
+      {
         label: "► Volunteering",
         value:
-          "I am a volunteer at 'Recoding post-crisis' (research and data platform by REPARAMETRIZE Foundation)",
+          "I am a volunteer at 'Recoding post-crisis' (Research and data platform by REPARAMETRIZE Foundation)",
       },
       {
         label: "► Agile Development",
