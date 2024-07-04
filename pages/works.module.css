@@ -11,18 +11,20 @@
 
 }
 
-.slick-slide img,
-.slick-slide video {
+/* .slick-slide img, */
+/* .slick-slide video {
   width: 100%;
   max-width: 100%;
   max-height: 100%;
   margin: 0 auto;
-}
+} */
+.image,
 .video {
   width: 100%;
   max-width: 100%;
   max-height: 100%;
-} 
+  margin: 0 auto; /* Center horizontally */
+}
 
 .slick-list {
   position: relative;
