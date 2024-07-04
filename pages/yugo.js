@@ -11,18 +11,23 @@ export default function Works() {
   const slides = [
     {
       id: 1,
+      type: "image",
       image: "/yugo.jpg",
       alt: "Image 6",
       legend: "Online taxi booking streamlines transportation.",
     },
     {
       id: 2,
+      type: "image",
+
       image: "/yugo1.jpg",
       alt: "Image 1",
       legend: "Ensuring convenience and reducing wait times.",
     },
     {
       id: 3,
+      type: "image",
+
       image: "/yugo2.jpg",
       alt: "Image 2",
       legend:
@@ -31,6 +36,8 @@ export default function Works() {
 
     {
       id: 4,
+      type: "image",
+
       image: "/yugo5.jpg",
       alt: "Image 4",
       legend:
@@ -38,6 +45,8 @@ export default function Works() {
     },
     {
       id: 5,
+      type: "image",
+
       image: "/yugo8.jpg",
       alt: "Image 5",
       legend:
@@ -45,12 +54,16 @@ export default function Works() {
     },
     {
       id: 6,
+      type: "image",
+
       image: "/yugo6.jpg",
       alt: "Image 7",
       legend: "",
     },
     {
       id: 7,
+      type: "image",
+
       image: "/yugo9.jpg",
       alt: "Image 8",
       legend:
@@ -58,12 +71,16 @@ export default function Works() {
     },
     {
       id: 8,
+      type: "image",
+
       image: "/yugo7.jpg",
       alt: "Image 9",
       legend: "",
     },
     {
       id: 9,
+      type: "image",
+
       image: "/yugo15.jpg",
       alt: "Image 10",
       legend:
@@ -71,6 +88,8 @@ export default function Works() {
     },
     {
       id: 10,
+      type: "image",
+
       image: "/yugo13.jpg",
       alt: "Image 11",
       legend:
@@ -78,12 +97,16 @@ export default function Works() {
     },
     {
       id: 11,
+      type: "image",
+
       image: "/yugo11.jpg",
       alt: "Image 12",
       legend: "Submission is your last step to get your car.",
     },
     {
       id: 12,
+      type: "image",
+
       image: "/yugo12.jpg",
       alt: "Image 13",
       legend:
@@ -91,10 +114,18 @@ export default function Works() {
     },
     {
       id: 13,
+      type: "image",
       image: "/yugo14.jpg",
       alt: "Image 14",
       legend:
         "Favorite Locations: Users can save preferred locations within the application, streamlining service requests and optimizing time management for their utmost convenience.\n Optimized Transportation: We prioritize efficiency by connecting users with the nearest private transportation options, ensuring swift and timely travel, irrespective of other alternatives.\nDisability Services: YUGO provides additional services tailored for individuals with disabilities, ensuring accessibility and comfort in every journey undertaken.\nChild-Friendly Services: Our specialized services cater to families with children, offering safety features and comfort, ensuring a stress-free travel experience for parents and their little ones. ",
+    },
+    {
+      id: 14,
+      type: "video",
+      image: "/yugodash.mp4",
+      alt: "Image 14",
+      legend: "dashboard",
     },
   ];
 
@@ -136,11 +167,18 @@ export default function Works() {
           <Slider {...settings}>
             {slides.map((slide) => (
               <div key={slide.id} className={styles.slide}>
-                <img
-                  className={styles.image}
-                  src={slide.image}
-                  alt={slide.alt}
-                />
+                {slide.type === "image" ? (
+                  <img
+                    className={styles.image}
+                    src={slide.src}
+                    alt={slide.alt}
+                  />
+                ) : (
+                  <video className={styles.video} controls>
+                    <source src={slide.src} type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                )}
                 <div className={styles.description}>
                   <p className={styles.legend}>{slide.legend}</p>
                 </div>

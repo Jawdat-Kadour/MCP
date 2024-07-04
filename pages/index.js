@@ -224,9 +224,13 @@ const buttonDetails = {
     title: "My Experiences",
     content: [
       {
+        label: "►  Programming Languages",
+        value: "Python, Dart, React, Java, and C++",
+      },
+      {
         label: "► Professional Summary",
         value:
-          "With strong programming skills in Python, Java, and C++, along with expertise in TensorFlow, PyTorch, and scikit-learn, I possess a solid foundation in AI development. My proficiency extends to various machine learning algorithms and deep learning architectures like CNNs and RNNs. I excel in data handling, employing SQL and visualization tools like Matplotlib for efficient dataset preprocessing and analysis. Leveraging my problem-solving skills and mathematical excellence, I navigate complex AI challenges, manage projects end-to-end, and ensure version control proficiency in collaborative environments.",
+          "With strong programming skills in Python along with expertise in TensorFlow, PyTorch, and scikit-learn, I possess a solid foundation in AI development. My proficiency extends to various machine learning algorithms and deep learning architectures like CNNs and RNNs. I excel in data handling, employing SQL and visualization tools like Matplotlib for efficient dataset preprocessing and analysis. Leveraging my problem-solving skills and mathematical excellence, I navigate complex AI challenges, manage projects end-to-end, and ensure version control proficiency in collaborative environments.",
       },
       {
         label: "► Front-End Skills",
@@ -396,7 +400,7 @@ export default function Home() {
                                   : project.title.toLowerCase() === "neura"
                                   ? "/neura"
                                   : project.title.toLowerCase() ===
-                                    "celestialbodiessimulator"
+                                    "celestial bodies simulator"
                                   ? "/galaxy"
                                   : project.title.toLowerCase() === "filmatica"
                                   ? "/movies"
