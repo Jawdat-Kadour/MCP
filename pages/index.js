@@ -400,7 +400,7 @@ export default function Home() {
                                   : project.title.toLowerCase() === "neura"
                                   ? "/neura"
                                   : project.title.toLowerCase() ===
-                                    "celestial bodies simulator"
+                                    "celestialbodiessimulator"
                                   ? "/galaxy"
                                   : project.title.toLowerCase() === "filmatica"
                                   ? "/movies"
