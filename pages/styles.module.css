@@ -65,7 +65,7 @@
 .buttonGroup {
   display: flex;
   flex-direction: column; /* Stack buttons vertically */
-  gap: 5px; /* Add space between buttons */
+  gap: 1px; /* Add space between buttons */
 }
 /* .name {
   font-size: 2.5rem;
