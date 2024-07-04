@@ -210,6 +210,7 @@ const buttonDetails = {
         value:
           "5th year student at ITE (Information Technology Engineering), specialized in Artificial Intelligence",
       },
+      { label: "► Military services ", value: "Final postponed" },
       { label: "► ♥ ", value: "Single" },
       { label: "► Location: ", value: "Damascus" },
       {
@@ -232,17 +233,24 @@ const buttonDetails = {
         value:
           "As a Flutter developer, I bring a passion for mobile development and a big attention to details to create seamless user experiences. With strong problem-solving skills and adaptability, I collaborate effectively in cross-functional teams, managing project timelines while increasing creativity and continuous learning to deliver creative Flutter applications. I am Experienced in Third-party libraries and Restful API's, GetX, Push Notification, Google Maps, State Management, Flutter flavor, And app architecture...",
       },
-      // {
-      //   label: "► Previous Experience",
-      //   value: "Previous experience in Mobile-App/Web development",
-      // },
+      {
+        label: "► Volunteering",
+        value:
+          "I am a volunteer at 'Recoding post-crisis' (research and data platform by REPARAMETRIZE Foundation)",
+      },
       {
         label: "► Agile Development",
         value: "Understanding of the agile development life cycle",
       },
       { label: "► Initiative", value: "Self-initiated and proactive" },
       { label: "► Design Skills", value: "Very Good designer" },
-      { label: "► English Speaking", value: "Fluent" },
+      {
+        label: "► Languages",
+        value: [
+          "English (Excellent at Listening, Speaking, Reading and Writing)",
+          "Arabic (mother language)",
+        ],
+      },
       {
         label: "► Communication Skills",
         value: "Strong communication and consultative skills",
@@ -325,7 +333,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to My Professional Portfolio: " />
+        {/* <Header title="Welcome to My Professional Portfolio: " /> */}
         <div className={styles.cv}>
           <div className={styles.profile}>
             <img
@@ -333,7 +341,7 @@ export default function Home() {
               src={images[currentImageIndex]}
               alt="Personal Photo"
             />
-            <h1 className={styles.name}>♦JAWDAT KADOUR♦</h1>
+            <h1 className={styles.name}>Jawdat Kadour</h1>
             <div className={styles.buttonGroup}>
               {Object.keys(buttonDetails).map((section) => (
                 <button

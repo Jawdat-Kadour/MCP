@@ -1,28 +1,41 @@
+
+/* ================== */
+
 .container {
-  display: flex;
-  flex-direction: column;
+  display: flex ;
+  /* padding: 1rem; */
+  margin: -7%;
+  margin-top: -10%;
+  flex-direction: column-reverse;
   align-items: center;
   min-height: 100vh;
   width: auto;
   padding: 8rem;
-  background: linear-gradient(to bottom right, #bc502c, #5d36c0, #d21919);
+  background: linear-gradient(to bottom right, #ffffff, #e0e0e0, #cbcbcb);
 /*   background: linear-gradient(to right, #ffffff, #c0c0c0, #1a215c, #c0c0c0, #ffffff); */
 }
 
 .cv {
-  background: linear-gradient(to bottom right, #3f212e, #282828, #05092a);
+  background: linear-gradient(to bottom right, #ffffff ,  #e0e0e0 , #ffffff);
   /* background-color: #3a3a3a; */
-  padding: 2rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: -4px; /* Add space between profile and details */
+  /* left: 2%; */
+  border: #000000;
+  margin: -3%;
+  /* margin-top: 50%; */
   width: auto;
-  border-radius: 12px;
+  border-radius: 0px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-width: 95%;
-  margin-top: 2rem;
+  margin-top: -3rem;
   animation: fadeIn 1s ease-in-out;
 }
 
 .photo {
-  max-width: 20%;
+  max-width: 15%;
   /* width: 100px; */
   height: auto;
   margin-bottom: 0rem;
@@ -41,10 +54,18 @@
 }
 
 .name {
-  font-size: 3rem;
+  font-size: 1.2rem;
+  padding-left: 0%;
   font-weight: bold;
   margin-bottom: 1.5rem;
-  color:aliceblue
+  color:rgb(0, 0, 0);
+  font-family: 'Open Sans';
+
+}
+.buttonGroup {
+  display: flex;
+  flex-direction: column; /* Stack buttons vertically */
+  gap: 5px; /* Add space between buttons */
 }
 /* .name {
   font-size: 2.5rem;
@@ -60,19 +81,20 @@
   font-weight: bold;
   margin-bottom: 0.5rem;
   /* text-decoration: underline; Add underline */
-  color:rgb(219, 46, 228)
+  color:rgb(0, 0, 0)
 }
 
 .details {
-  display: inline-flex;
+  display: flex;
+  vertical-align: middle;
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
-  color: aliceblue;
+  color: rgb(0, 0, 0);
 }
 
 .details::before {
-  content: "♦";
-  color: rgb(250, 250, 250); /* Adjust color as needed */
+  content: "";
+  color: rgb(0, 0, 0); /* Adjust color as needed */
   font-weight: bold;
   margin-right: 0.5rem;
 }
@@ -95,32 +117,50 @@
   width: 100%;
   height: 10px;
   border: none;
-  background-color: #f2f2f2;
+  background-color: #000000;
 }
 
 /* Modify the button styles */
 .button {
-  text-decoration: underline; 
-
-  padding: 1rem 5rem;
+  /* padding: 1rem 5rem; */
+  width: fit-content; /* Adjust width to fit content */
   display: flex;
-  flex-direction: column;
-  background: linear-gradient(to bottom right, rgb(255, 255, 66),  rgb(145, 91, 12), rgb(225, 108, 25));
+  /* flex-direction: column; */
+  flex-direction: row;
+  align-items: center; /* Align items vertically in the center */
+  justify-content: center; /* Center items horizontally */
+  padding: 15px;
+  background: linear-gradient(to bottom right, rgb(53, 53, 53),  rgb(255, 255, 255), rgb(75, 74, 74));
   /* padding: 2%; */
   /* background-color: rgb(132, 88, 31); */
   color: #000000;
   border: #ffffff;
-  border-radius: 16px;
+  border-radius: 8px;
   box-shadow: 0 4px 8px rgb(0, 0, 0);
   /* transition: transform 0.3s, box-shadow 0.3s; */
   transition: all 0.8s ease;
 
+}
+.button span {
+  margin-right: 10px; /* Add space between the icon and text */
+  
 }
 
 .button:hover {
   transform: translateY(-3px);
   box-shadow: 0 4px 16px rgb(255, 255, 255);
 
+}
+
+.details {
+  width: 100%; /* Take full width */
+  
+}
+.projectDetails {
+  margin-top: 10px;
+  
+  padding-left: 20px; /* Indent project details */
+  border-left: 2px solid #ccc; /* Left border for details */
 }
 
 .button:active {
@@ -130,6 +170,7 @@
 
 @media screen and (max-width: 600px) {
   .details {
-    grid-template-columns: 1fr;
+    grid-template-columns: 100fr;
+   
   }
 }
