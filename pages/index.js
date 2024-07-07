@@ -225,7 +225,7 @@ const buttonDetails = {
     content: [
       {
         label: "►  Programming Languages",
-        value: "Python, Dart, React, Java, and C++",
+        value: "Python, Dart, Js, Css, Java, and C++",
       },
       {
         label: "► Professional Summary",
