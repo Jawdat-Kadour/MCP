@@ -283,7 +283,7 @@ const buttonDetails = {
         title: "Neura",
         description:
           "Chatbot application that provides guidance to users for maintaining their health and well-being.",
-        role: "Working on the modules and All the Front-End developing",
+        role: "Working on the underground logic and All the Front-End developing",
       },
       {
         title: "CelestialBodiesSimulator",
