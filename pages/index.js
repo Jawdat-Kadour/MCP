@@ -208,7 +208,7 @@ const buttonDetails = {
       {
         label: "► Education ",
         value:
-          "5th year student at ITE (Information Technology Engineering), specialized in Artificial Intelligence",
+          "Information Technology Engineering - Damascus University (5th year), specialized in Artificial Intelligence / 2019-2024",
       },
       { label: "► Military services ", value: "Final postponed" },
       { label: "► ♥ ", value: "Single" },
