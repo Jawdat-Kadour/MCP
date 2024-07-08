@@ -199,7 +199,8 @@ export default function Works() {
                   users and diagnosing to maintain their health and well-being.
                 </li>
                 <li>
-                  Role: Working on the modules and All the Front-End developing.
+                  Role: Working on the underground logic and All the Front-End
+                  developing.
                 </li>
               </ul>
             </li>
