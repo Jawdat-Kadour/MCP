@@ -212,7 +212,7 @@ const buttonDetails = {
       },
       { label: "► Military services ", value: "Final postponed" },
       { label: "► ♥ ", value: "Single" },
-      { label: "► Location: ", value: "Damascus" },
+      { label: "► Address ", value: "Syria, Damascus" },
       {
         label: "► Profile ",
         value:
