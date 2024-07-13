@@ -165,7 +165,7 @@
 .projectDetails {
   margin-top: 10px;
   font-family: 'Open Sans';
-
+  text-decoration: none;
   padding-left: 20px; /* Indent project details */
   border-left: 2px solid #ccc; /* Left border for details */
 }
