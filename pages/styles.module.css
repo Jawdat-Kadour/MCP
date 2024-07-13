@@ -81,7 +81,9 @@
   font-weight: bold;
   margin-bottom: 0.5rem;
   text-decoration: none;
-  color:rgb(0, 0, 0)
+  color:rgb(0, 0, 0);
+  font-family: 'Open Sans';
+
 }
 
 .details {
@@ -89,10 +91,13 @@
   vertical-align: middle;
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
+  font-family: 'Open Sans';
+
   color: rgb(0, 0, 0);
 }
 
 .details::before {
+  
   content: "";
   color: rgb(0, 0, 0); /* Adjust color as needed */
   font-weight: bold;
@@ -110,7 +115,8 @@
 .details.active {
   opacity: 1;
   max-height: 100%;
-  
+  font-family: 'Open Sans';
+
 }
 
 .progress {
@@ -158,7 +164,8 @@
 }
 .projectDetails {
   margin-top: 10px;
-  
+  font-family: 'Open Sans';
+
   padding-left: 20px; /* Indent project details */
   border-left: 2px solid #ccc; /* Left border for details */
 }
@@ -171,6 +178,7 @@
 @media screen and (max-width: 600px) {
   .details {
     grid-template-columns: 100fr;
-   
+    font-family: 'Open Sans';
+
   }
 }
