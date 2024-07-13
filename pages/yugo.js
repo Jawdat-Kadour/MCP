@@ -337,7 +337,7 @@ export default function Works() {
                   Description: Mobile application designed to connect passengers
                   with nearby taxi drivers.
                 </li>
-                <li>Role: Developing GUIs included with Maps.</li>
+                <li>Role: Flutter Developer</li>
               </ul>
             </li>
           </ol>
