@@ -198,7 +198,8 @@ import Header from "@components/Header";
 import Footer from "@components/Footer";
 import styles from "./styles.module.css";
 
-const images = ["/ph.jpg"]; // Update the path to your personal photo
+// const images = ["/ph.jpg"]; // Update the path to your personal photo
+const images = ["/mee.jpg"]; // Update the path to your personal photo
 
 const buttonDetails = {
   me: {
